@@ -1,0 +1,13 @@
+{
+  "name": "buffon",
+  "private": true,
+  "author": "Jérôme LAURENS",
+  "version": "0.0.1",
+  "license": "EUPL-1.2",
+  "scripts": {
+    "asar": "./node_modules/asar/bin/asar.js pack docs app.asar"
+  },
+  "dependencies": {
+    "asar": "^3.1.0"
+  }
+}
